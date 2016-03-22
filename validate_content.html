@@ -1,0 +1,23 @@
+<html>
+<body>	
+	<p>Enter some number between 1 and 10:</p>
+	<input id="inputid">
+	<button type="button" onClick="checkInput()">Submit</button>
+	<p id="output"></p>
+	<script>
+		function checkInput(){
+			var input, text;
+			input = document.getElementById('inputid').value;
+			if(isNaN(input) || input < 1 || input > 10){
+			
+				text = 'Invalid Input'
+			}
+			else{
+				text = "Valid Input, thanks"
+			}
+			document.getElementById('output').innerHTML = text;
+		}
+
+	</script>
+</body>
+</html>

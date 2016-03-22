@@ -1,0 +1,94 @@
+JAVASCRIPT
+
+html - defines content of webpages
+css  - defines layout of webpages
+js - programs the behaviour of webpages
+
+
+Who created?
+	js - by brendan eich, has ecma standard
+
+EcmaScript
+	ecmascipt is official version of js
+
+Scripting Lang
+	js is the default scripting language of html,
+	so no need to write <script type="text/javascript">
+
+Where can we place js?
+	head and body
+	better to place scripts at bottom of body, since script compilation might slow the display.
+	external js files, when used across many webpages, better.
+
+advantage of external js file?
+	separation of html and code
+	caching js files, speeds up loading of webpage
+	easier to read and maintain
+
+writing / printing using js?
+	does not have print/write function builtin,
+	it uses window.alert() OR document.write() OR document.getElementById().innerHTML OR console.log()
+
+who executes javascript programs?
+	the browsers execute javascript programs.
+
+js statements
+	are instructions to be executed by the browser.
+
+js comments	
+	// or /* */
+
+js variables
+	if we dont initialize a variable, the value of a variable will be 'undefined'
+		var x; if we use x somewhere, the value will be undefined
+
+re-delaring javascript variables
+	var x = "volvo"; var x;
+	x retains its value.
+
+concat num with strings
+	if we concat num to a string, its treated as a string.
+
+js operators
+	typeof - type ==> typeof x
+	. - member ==> person.name
+	[] - member ==> person["name"]
+	** - exponentiation ==> 10**3
+	=== - strict equal ==> x === y
+	!== - strict unequal ==> x !== y
+
+js - dynamic types
+	same variable can hold values of  different datatypes.
+	var x = 16;
+	x = "John"
+
+js - arrays
+	var arr = [1,2,3,4];
+	var strarr = ["a", "b", "c"]
+
+js - objects
+	var obj = {firstName:"raja", lastName="rani", age=33};
+
+js - emptying a value
+	var obj = undefined
+
+js - null // null is a object type.
+	var obj = null
+
+js - diff between null & undefined
+	typeof undefined // undefine
+	typeof null // object
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
